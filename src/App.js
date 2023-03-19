@@ -21,7 +21,7 @@ export default function Game(){
     }
     if(move === currentMove){
       return (
-        <li key={move}>
+        <li id ="cur" key={move}>
           You are at move: {move}
         </li>
       )
@@ -65,6 +65,7 @@ function Board({xIsNext, squares, onPlay}) {
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
+
   return (
     <>
     <div className="status">{status}</div>

@@ -58,17 +58,17 @@ body {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 0.4px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .board-row:after {
@@ -78,6 +78,9 @@ body {
 }
 
 .status {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
   margin-bottom: 10px;
 }
 .game {
@@ -87,4 +90,7 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+#cur{
+  font-weight: bolder;
 }
